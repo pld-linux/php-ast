@@ -18,7 +18,7 @@ BuildRequires:	%{php_name}-devel >= 4:7.0
 BuildRequires:	rpmbuild(macros) >= 1.666
 %if %{with tests}
 BuildRequires:	%{php_name}-cli
-BuildRequires:	%{php_name}-pcre
+BuildRequires:	%{php_name}-spl
 %endif
 %{?requires_php_extension}
 Provides:	php(ast) = %{version}
