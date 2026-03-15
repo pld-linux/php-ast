@@ -7,7 +7,7 @@
 Summary:	Extension exposing PHP 7 abstract syntax tree
 Name:		%{php_name}-%{modname}
 Version:	0.1.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	https://github.com/nikic/php-ast/archive/v%{version}/php-%{modname}-%{version}.tar.gz
